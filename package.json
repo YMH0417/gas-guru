@@ -1,7 +1,8 @@
 {
   "name": "gas-guru",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "private": true,
+  "description": "以太坊 Gas 费用实时查看与 AI 分析工具，使用公共 RPC 端点，无需 API Key",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,6 +11,7 @@
   },
   "dependencies": {
     "next": "16.2.10",
+    "openai": "^6.46.0",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
